@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*,*::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+main {
+    position: relative; 
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    pointer-events: none;
+
+}
+.parallex {
+    pointer-events: none;
+    transform: translate(-50% , -50%);
+    overflow: hidden;
+    transition: 0.45s cubic-bezier(.2,.49,.32,.99);
+}
+
+.bg-img {
+    position: absolute;
+    width: 2800px;
+    top: calc(50% - 390px);
+    left: calc(50% + 10px);
+    z-index: 1;
+    pointer-events: none;
+
+}
+
+.fog-7 {
+    position: absolute;
+    width: 1900px;
+    top: calc(50% - 100px);
+    left: calc(50% + 300px);
+    z-index: 2;
+}
+
+.mountain-10 {
+    position: absolute;
+    width: 870px;
+    top: calc(50% + 69px);
+    left: calc(50% + 230px);
+    z-index: 3;
+
+}
+
+.fog-2 {
+    position: absolute;
+    width: 1833px;
+    top: calc(50% + 95px);
+    left: calc(50% + 7px);
+    z-index: 4;
+    pointer-events: none;
+
+}
+
+.mountain-9{
+    position: absolute;
+    width: 463px;
+    top: calc(50% + 119px);
+    left: calc(50% + 457px);
+    z-index: 5;
+    pointer-events: none;
+
+}
+
+.mountain-8 {
+    position: absolute;
+    width: 786px;
+    top: calc(50% + 96px);
+    left: calc(50% - 202px);
+    z-index: 6;
+    pointer-events: none;
+
+}
+
+.fog-3 {
+    position: absolute;
+    width: 449px;
+    top: calc(50% + 171px);
+    left: calc(50% + 29px);
+    z-index: 7;
+}
+.mountain-7{
+    position: absolute;
+    width: 515px;
+    top: calc(50% + 134px);
+    left: calc(50% + 305px);
+    z-index: 8;
+    pointer-events: none;
+
+}
+
+.mountain-6 {
+    position: absolute;
+    width: 383.5px;
+    top: calc(50% + 86.5px);
+    left: calc(50% + 590px);
+    z-index: 10;
+    pointer-events: none;
+
+}
+.fog-4 {
+    z-index: 11;
+    position: absolute;
+    width: 543px;
+    top: calc(50% + 242px);
+    left: calc(50% + 64px);
+    pointer-events: none;
+
+}
+
+.mountain-5 {
+    z-index: 12;
+    position: absolute;
+    width: 583px;
+    top: calc(50% + 269px);
+    left: calc(50% + 130px);
+    pointer-events: none;
+
+}
+
+.fog-5 {
+    position: absolute;
+    width: 870px;
+    top: calc(50% + 149px);
+    left: calc(50% + 28px);
+    z-index: 13;
+}
+.mountain-4 {
+    position: absolute;
+    width: 717px;
+    top: calc(50% + 164px);
+    left: calc(50% + 381.5px);
+    z-index: 19;
+}
+
+.mountain-3 {
+    position: absolute;
+    width: 419px;
+    top: calc(50% + 133px);
+    left: calc(50% + 736px);
+    z-index: 15;
+    pointer-events: none;
+
+}
+
+.fog-6 {
+    position: absolute;
+    width: 1418px;
+    top: calc(50% + 400px);
+    left: calc(50% - 600px);
+    z-index: 16;
+}
+
+.mountain-2 {
+    position: absolute;
+    width: 625px;
+    top: calc(50% + 500px);
+    left: calc(50% + 412px);
+    z-index: 19;
+    pointer-events: none;
+
+}
+
+.mountain-88 {
+    position: absolute;
+    width: 800px;
+    top: calc(50% + 230px);
+    left: calc(50% - 430px);
+    z-index: 30;
+    pointer-events: none;
+
+}
+/* .mountain-2:nth-child(2){
+    
+} */
+.mountain-1 {
+    position: absolute;
+    width: 450px;
+    top: calc(50% + 91.5px);
+    left: calc(50% - 655px);
+    z-index: 18;
+    pointer-events: none;
+
+}
+
+.circle-middle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(ellipse at center , rgba(0,0,0,0) 65% ,rgba(0,0,0,0.7));
+    z-index: 999;
+    pointer-events: none;
+
+}
+
+.sun {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2000px;
+    height: 500px;
+    z-index: 2;
+    pointer-events: none;
+
+}
+
+
+.text {
+    position: absolute;
+    top: calc(50% - 100px);
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    z-index: 18;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 0.88;
+    pointer-events: auto;
+
+}
+.text ::selection {
+    background-color: #255c54;;
+}
+.text h2 {
+    font-size: 100px;
+    font-weight: 100;
+}
+.text h1 {
+    font-size: 150px;
+    font-weight: 800;
+    background-image: conic-gradient();
+}
+
